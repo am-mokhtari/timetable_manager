@@ -276,18 +276,3 @@ class Timetable
         return $result;
     }
 }
-
-
-try {
-    var_dump(
-        (new Timetable())
-            ->setDayTime(1, 5, 28, 5, 30)
-            ->setDayTime(2, 5, 28, 5, 30)
-            ->setDayTime(7, 5, 29, 5, 30)
-            ->setDayTime(5, 5, 29, 5, 30)
-            ->setDayTime(6, 5, 29, 5, 30)
-            ->getSummarizedTimes()
-    );
-} catch (Exception $e) {
-    echo $e->getMessage();
-}
