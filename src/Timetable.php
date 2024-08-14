@@ -1,6 +1,6 @@
 <?php
 
-namespace Amm\TimetableManager;
+namespace AmMokhtari\TimetableManager;
 
 use Exception;
 
